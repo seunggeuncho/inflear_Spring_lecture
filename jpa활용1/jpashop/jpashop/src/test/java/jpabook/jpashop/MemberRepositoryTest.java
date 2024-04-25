@@ -28,4 +28,5 @@ class MemberRepositoryTest {
 
         Assertions.assertThat(findMember.getId()).isEqualTo(member.getId());
     }
+    
 }

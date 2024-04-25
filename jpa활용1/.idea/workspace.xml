@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cb6462a-f325-4a70-954c-818a93e1a88d" name="Changes" comment="" />
+    <list default="true" id="1cb6462a-f325-4a70-954c-818a93e1a88d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/DeliveryStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/Locker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/MemberProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/Period.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/RoleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/java/hellojpa/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/ex1hellojpa/untitled/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpashop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpashop/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpashop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpashop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpashop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpashop/src/main/java/jpabook/jpashop/JpaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpashop/src/main/java/jpabook/jpashop/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpashop/src/main/java/jpabook/jpashop/domain/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpashop/src/main/java/jpabook/jpashop/domain/DeliveryStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpashop/src/main/java/jpabook/jpashop/domain/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpashop/src/main/java/jpabook/jpashop/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpashop/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpashop/src/main/java/jpabook/jpashop/domain/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpashop/src/main/java/jpabook/jpashop/domain/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpashop/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpql/src/main/java/jpql/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpql/src/main/java/jpql/JpaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpql/src/main/java/jpql/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpql/src/main/java/jpql/MemberDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpql/src/main/java/jpql/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpql/src/main/java/jpql/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpql/src/main/java/jpql/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/jpql/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa기본편/jpashop/untitled/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpashop/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpashop/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,12 +70,12 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/김영한-스프링강의/jpa활용1/jpashop"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/김영한-스프링강의/jpa활용1/jpashop&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
