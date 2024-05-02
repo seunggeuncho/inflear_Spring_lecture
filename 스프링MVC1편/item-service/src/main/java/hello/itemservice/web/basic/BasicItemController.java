@@ -10,6 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import org.springframework.web.servlet.view.RedirectView;
 
 import java.util.List;
 
@@ -74,9 +75,11 @@ public class BasicItemController {
     }
 
     @PostMapping("/{itemId}/edit")
-    public String editForm(@PathVariable("itemId") Long itemId, @ModelAttribute Item item){
+    public RedirectView editForm(@PathVariable("itemId") Long itemId, @ModelAttribute Item item){
         itemRepository.update(itemId, item);
-        return "redirect:/basic/items/{itemId}";
+        RedirectView redirectView = new RedirectView();
+        redirectView.setUrl("https://port-0-teammatchservice-1cupyg2klvm5dc4u.sel5.cloudtype.app/post/createpost");
+        return redirectView;
     }
 
 
