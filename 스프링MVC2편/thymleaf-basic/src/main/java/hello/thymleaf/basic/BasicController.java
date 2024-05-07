@@ -31,7 +31,7 @@ public class BasicController {
         return "basic/text-unescaped";
     }
 
-    @GetMapping("variable")
+    @GetMapping("/variable")
     public String variable(Model model){
         User userA = new User("userA",10);
         User userB = new User("userB",20);
@@ -71,7 +71,7 @@ public class BasicController {
         return "basic/date";
     }
 
-    @GetMapping("link")
+    @GetMapping("/link")
     public String link(Model model){
         model.addAttribute("param1","data1");
         model.addAttribute("param2","data2");
