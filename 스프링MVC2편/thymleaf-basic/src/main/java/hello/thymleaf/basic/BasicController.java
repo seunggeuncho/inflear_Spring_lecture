@@ -133,6 +133,7 @@ public class BasicController {
         list.add(new User("UserB", 20));
         list.add(new User("UserC", 30));
         list.add(new User("UserD", 40));
+        list.add(new User("UserD", 40));
         model.addAttribute("users",list);
     }
 
