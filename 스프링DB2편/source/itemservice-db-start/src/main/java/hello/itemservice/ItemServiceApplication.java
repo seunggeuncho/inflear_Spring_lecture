@@ -29,7 +29,7 @@ public class ItemServiceApplication {
 		return new TestDataInit(itemRepository);
 	}
 
-/*
+/*	메모리 초기화 과정이 없으면 자동으로 설정
 	@Bean
 	@Profile("test")
 	public DataSource dataSource(){
