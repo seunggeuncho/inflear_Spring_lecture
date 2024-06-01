@@ -124,6 +124,8 @@ public class BasicTxTEst {
         DefaultTransactionAttribute definition = new DefaultTransactionAttribute();
         definition.setPropagationBehavior(TransactionDefinition.PROPAGATION_REQUIRES_NEW);
         TransactionStatus inner = txManager.getTransaction(definition);
+
+        
         log.info("inner.isNewTransaction={}", inner.isNewTransaction());
 
         log.info("내부 트랜잭션 롤백");
