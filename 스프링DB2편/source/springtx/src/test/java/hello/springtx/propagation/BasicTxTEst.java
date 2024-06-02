@@ -125,9 +125,11 @@ public class BasicTxTEst {
         definition.setPropagationBehavior(TransactionDefinition.PROPAGATION_REQUIRES_NEW);
         TransactionStatus inner = txManager.getTransaction(definition);
 
-        
+
         log.info("inner.isNewTransaction={}", inner.isNewTransaction());
 
+
+        
         log.info("내부 트랜잭션 롤백");
         txManager.rollback(inner);
 
