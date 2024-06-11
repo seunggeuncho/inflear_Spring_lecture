@@ -10,6 +10,8 @@ import org.springframework.stereotype.Repository;
 public class OrderRepositoryV5 {
 
 
+    
+
     private final TraceTemplate template;
 
     public OrderRepositoryV5(LogTrace trace) {
