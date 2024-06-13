@@ -129,7 +129,7 @@ public class BasicTxTEst {
         log.info("inner.isNewTransaction={}", inner.isNewTransaction());
 
 
-        
+
         log.info("내부 트랜잭션 롤백");
         txManager.rollback(inner);
 
