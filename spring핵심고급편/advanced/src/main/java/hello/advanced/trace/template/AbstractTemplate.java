@@ -23,6 +23,7 @@ public abstract class AbstractTemplate<T> {
             return result;
         } catch (Exception e){
             trace.exception(status, e);
+            e.printStackTrace();
             throw new IllegalStateException();
         }
 
