@@ -23,6 +23,10 @@ public class AopTest {
     @Autowired
     OrderRepository orderRepository;
 
+    @Test
+    void aopform(){
+        
+    }
 
     @Test
     void aopInfo(){
